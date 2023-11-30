@@ -1,10 +1,10 @@
-def func(list_name):
+def func(string_name):
     """ Возвращает строку заглавными буквами 
     """
-    return list_name.upper()
+    return string_name.upper()
 
 
-def func_2(list_name):
+def func_2(string_name):
     """ Переводит первый символ строки в верхний регистр, а все остальные в нижний
     """
-    return list_name.capitalize()
+    return string_name.capitalize()
